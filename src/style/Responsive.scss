@@ -1,0 +1,95 @@
+/* /// ===== Break Ponit ===== /// */
+
+/* // =====Larger that 1440px - Large Desktop ===== // */
+
+@media (min-width: 1440px) {
+}
+
+/* // =====Desktop ===== // */
+@media (min-width: 960px) and (max-width: 1440px) {
+  a {
+    font-size: 1rem;
+    padding: 20px !important;
+  }
+
+  .grid {
+    .bgr-light {
+      h1 {
+        font-size: 1.3rem;
+      }
+      p {
+        font-size: 1.1rem;
+      }
+    }
+    .desc {
+      .list {
+        justify-content: center !important;
+      }
+    }
+  }
+
+  ul {
+    li {
+      h2 {
+        font-size: 1.1rem;
+      }
+      p {
+        font-size: 1rem;
+      }
+    }
+  }
+}
+
+/* // ===== Tablet Responsive ===== // */
+
+@media (min-width: 576px) and (max-width: 960px) {
+  a {
+    font-size: 0.8rem;
+    padding: 15px !important;
+  }
+
+  .content {
+    .img {
+      width: 250px;
+    }
+    .grid {
+      .bgr-light {
+        h1 {
+          font-size: 1.1rem;
+        }
+        p {
+          font-size: 1rem;
+        }
+      }
+      .desc {
+        .list {
+          justify-content: center !important;
+        }
+      }
+    }
+  }
+
+  ul {
+    li {
+      h2 {
+        font-size: 1.1rem;
+      }
+      p {
+        font-size: 1rem;
+      }
+    }
+  }
+}
+
+/* // ===== Mobile Responsive ===== // */
+
+@media (max-width: 576px) {
+  a {
+    font-size: 0.6rem;
+    padding: 5px !important;
+  }
+
+  .img {
+    width: 150px;
+  }
+}
